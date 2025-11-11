@@ -22,7 +22,7 @@ export const FormStep2 = () => {
             })
         }
         
-    }, []);
+    }, [dispatch, navigate, state.name]);
 
     const handleNextStep = () => {
         if (state.name !== '') {

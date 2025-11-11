@@ -19,7 +19,7 @@ export const FormStep3 = () => {
             })
         }
         
-    }, []);
+    }, [dispatch, navigate, state.name]);
 
     const handleNextStep = () => {
         if (state.email !== '' && state.github !== '') {
