@@ -1,46 +1,50 @@
-# Getting Started with Create React App
+# 🧩 MultiForm
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto desenvolvido com o objetivo de **treinar o uso da Context API e do useReducer para gerenciamento de estado global** em uma aplicação React.  
+Foi construído com **ReactJS puro** (sem frameworks adicionais) e utilizando a biblioteca **styled-components** para estilização.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🎯 Visão Geral
 
-### `npm start`
+O **MultiForm** é um formulário dividido em múltiplas etapas (multi-step form), onde o usuário preenche informações passo a passo — com controle centralizado de estado entre as páginas por meio do Context API + Reducer.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+💡 Ideal para compreender na prática:
+- Gerenciamento de estado global com `useContext` e `useReducer`;
+- Navegação entre etapas sem perder os dados;
+- Boas práticas de componentização e tipagem com TypeScript;
+- Estilização dinâmica com `styled-components`.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+A versão hospedada está disponível em:  
+👉 [https://multi-form-6fig.vercel.app/](https://multi-form-6fig.vercel.app/)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🧱 Tecnologias Utilizadas
 
-### `npm run build`
+- ⚛️ **ReactJS (React puro)**  
+- 🧠 **Context API + useReducer** (gerenciamento de estado)  
+- 💅 **styled-components** (estilização com CSS-in-JS)  
+- 🔡 **TypeScript**  
+- 🧹 **ESLint** (análise estática de código)  
+- ☁️ **Vercel** (deploy contínuo)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Como Rodar Localmente
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Pré-requisitos
+Você precisa ter instalado:
+- [Node.js](https://nodejs.org/) (>= 14)
+- npm ou yarn
 
-### `npm run eject`
+### Instalação
+```bash
+# Clone o repositório
+git clone https://github.com/walacer72/MultiForm.git
+cd MultiForm
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Instale as dependências
+npm install
+# ou
+yarn install
