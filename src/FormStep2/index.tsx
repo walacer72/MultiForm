@@ -2,7 +2,7 @@ import { Theme } from '../components/Theme';
 import * as C from './styles';
 import { Link, useNavigate } from 'react-router-dom';
 import { useForm, FormActions } from '../contexts/FormContext';
-import { ChangeEvent, useEffect } from 'react';
+import { useEffect } from 'react';
 import { SelectOption } from '../components/SelectOption';
 import EmojiObjectsIcon from "@mui/icons-material/EmojiObjects";
 import CodeIcon from "@mui/icons-material/Code";
