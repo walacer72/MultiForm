@@ -33,13 +33,6 @@ export const FormStep2 = () => {
 
     }
 
-    const handleNameChange = (e: ChangeEvent<HTMLInputElement>) => {
-        dispatch({
-            type: FormActions.setName,
-            payload: e.target.value
-        })
-    }
-
     const setLevel = (level: number) => {
         dispatch({
             type: FormActions.setLevel,

@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+
 import * as C from './styles';
 
 
