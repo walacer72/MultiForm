@@ -28,7 +28,7 @@ export const Container = styled.div`
         input {
             display: block;
             margin-top: 7px;
-            box-sizing: bordex-box;
+            box-sizing: border-box;
             width: 100%;
             padding: 20px 10px;
             border-radius: 10px;

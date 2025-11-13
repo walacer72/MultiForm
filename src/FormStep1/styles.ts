@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+    
+    
     p {
         font-size: 13px;
         color: #B8B8D4;
@@ -21,13 +23,15 @@ export const Container = styled.div`
     }
 
     label {
+        
         font-size: 13px;
 
         input {
             display: block;
             margin-top: 7px;
-            box-sizing: bordex-box;
+            box-sizing: border-box;
             width: 100%;
+            
             padding: 20px 10px;
             border-radius: 10px;
             border: 2px solid #083344;
@@ -49,5 +53,11 @@ export const Container = styled.div`
         border-radius: 30px;
         cursor: pointer;
         margin-top: 20px;
+        transition: opacity .3s ease;
+
+        &:hover {
+        
+            opacity: 0.8;
+        }
     }
 `;
